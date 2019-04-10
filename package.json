@@ -28,7 +28,7 @@
     "precommit": "lint-staged",
     "prepublishOnly": "yarn build",
     "ghpages": "yarn build && gh-pages -d dist",
-    "prepare": "npm run build",
+    "prepare": "npm run build"
   },
   "lint-staged": {
     "*.js": [
